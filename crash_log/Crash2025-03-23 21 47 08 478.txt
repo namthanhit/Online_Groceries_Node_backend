@@ -1,0 +1,1 @@
+Error: EXDEV: cross-device link not permitted, rename 'C:\Users\Admin\AppData\Local\Temp\SUom66mOdLVqSDc58VGV1kJa.jpg' -> 'D:\DoAnCS\online_groceries_node\public\img\product\20250323214708478LpunCTRjkD.jpg'
