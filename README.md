@@ -1,7 +1,12 @@
 # Shop Smart, Save Time - Backend
 
 ## Giới thiệu
-Chào mừng bạn đến với hướng dẫn toàn diện này, nơi chúng ta sẽ xây dựng một ứng dụng **Online Groceries Shop** hiệu quả và thân thiện với người dùng có tên **"Shop Smart, Save Time"**. Trong hướng dẫn này, chúng ta sẽ phát triển backend của ứng dụng bằng **Node.js**, **Express.js**, **MySQL**, và **Socket.io**. Với sự kết hợp mạnh mẽ này, chúng ta sẽ tạo ra một **REST API** mạnh mẽ để xử lý tương tác người dùng và cập nhật thời gian thực, giúp trải nghiệm mua sắm trở nên mượt mà và hấp dẫn.
+Backend cửa hàng tạp hóa online
+Thành viên 
+Lê Thành Nam
+Bùi Ngọc Đức
+Vũ Thành Dương
+Nguyễn Việt Quang
 
 ## ⚙️ Công nghệ sử dụng
 - **Node.js** (Express.js)
