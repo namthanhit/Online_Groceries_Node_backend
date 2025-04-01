@@ -2,11 +2,11 @@
 
 ## Giới thiệu
 Backend cửa hàng tạp hóa online
-Thành viên 
-Lê Thành Nam
-Bùi Ngọc Đức
-Vũ Thành Dương
-Nguyễn Việt Quang
+### Thành viên
+- **Lê Thành Nam**
+- **Bùi Ngọc Đức**
+- **Vũ Thành Dương**
+- **Nguyễn Việt Quang**
 
 ## ⚙️ Công nghệ sử dụng
 - **Node.js** (Express.js)
