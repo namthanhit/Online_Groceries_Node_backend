@@ -1,21 +1,30 @@
-# Online Groceries Shop - Backend
+# Shop Smart, Save Time - Backend
 
 ## Giới thiệu
-Đây là backend của dự án **Online Groceries Shop**, một ứng dụng thương mại điện tử giúp người dùng mua sắm thực phẩm trực tuyến. Backend được xây dựng bằng **Node.js** và sử dụng **MySQL** làm hệ quản trị cơ sở dữ liệu.
+Chào mừng bạn đến với hướng dẫn toàn diện này, nơi chúng ta sẽ xây dựng một ứng dụng **Online Groceries Shop** hiệu quả và thân thiện với người dùng có tên **"Shop Smart, Save Time"**. Trong hướng dẫn này, chúng ta sẽ phát triển backend của ứng dụng bằng **Node.js**, **Express.js**, **MySQL**, và **Socket.io**. Với sự kết hợp mạnh mẽ này, chúng ta sẽ tạo ra một **REST API** mạnh mẽ để xử lý tương tác người dùng và cập nhật thời gian thực, giúp trải nghiệm mua sắm trở nên mượt mà và hấp dẫn.
 
-## Công nghệ sử dụng
+## ⚙️ Công nghệ sử dụng
 - **Node.js** (Express.js)
 - **MySQL** (Sequelize ORM)
+- **Socket.io** (Cập nhật thời gian thực)
 - **JWT** (Xác thực người dùng)
 - **Bcrypt** (Mã hóa mật khẩu)
 - **Dotenv** (Quản lý biến môi trường)
+
+## 🚀 Tính năng chính
+- **Đăng ký & Xác thực người dùng**: Tạo tài khoản và đăng nhập an toàn.
+- **Duyệt sản phẩm**: Khám phá nhiều mặt hàng tạp hóa với thông tin chi tiết.
+- **Thêm vào giỏ hàng & Thanh toán**: Dễ dàng thêm sản phẩm vào giỏ hàng và tiến hành thanh toán.
+- **Cập nhật thời gian thực**: Nhận thông báo và trạng thái đơn hàng tức thời.
+- **Thanh toán an toàn**: Đảm bảo quy trình thanh toán thuận tiện và bảo mật.
+- **Theo dõi đơn hàng**: Kiểm tra trạng thái đơn hàng để tiện theo dõi.
 
 ## Cài đặt và chạy dự án
 
 ### 1. Clone repository
 ```bash
-git clone [https://github.com/your-username/Online_Groceries_Shop_Backend.git](https://github.com/namthanhit/Online_Groceries_Node_backend.git)
-cd Online_Groceries_Shop_Backend
+git clone https://github.com/namthanhit/Online_Groceries_Node_backend
+cd Online_Groceries_Node_backend
 ```
 
 ### 2. Cài đặt dependencies
@@ -66,25 +75,10 @@ Server sẽ chạy trên `http://localhost:5000`.
 - `POST /api/orders` - Tạo đơn hàng
 - `GET /api/orders/:id` - Lấy thông tin đơn hàng
 - `GET /api/orders/user/:userId` - Lấy danh sách đơn hàng của người dùng
+- `GET /api/orders/track/:orderId` - Theo dõi đơn hàng
 
-## Cấu trúc thư mục
-```
-Online_Groceries_Shop_Backend/
-│── src/
-│   ├── controllers/    # Xử lý logic API
-│   ├── models/         # Định nghĩa models Sequelize
-│   ├── routes/         # Định nghĩa API routes
-│   ├── middlewares/    # Middleware (Xác thực, lỗi...)
-│   ├── config/         # Cấu hình database, môi trường
-│   ├── app.js          # Cấu hình ứng dụng Express
-│── migrations/         # File migrations (nếu có)
-│── .env                # File cấu hình môi trường
-│── package.json        # Thông tin dependencies
-│── README.md           # Tài liệu hướng dẫn
-```
+### Real-Time Updates
+- `Socket.io` - Cập nhật trạng thái đơn hàng theo thời gian thực
 
-## Đóng góp
-Nếu bạn muốn đóng góp, vui lòng tạo pull request hoặc mở issue để thảo luận.
+Nhóm 6
 
-## License
-MIT
