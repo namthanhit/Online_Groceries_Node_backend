@@ -1,4 +1,4 @@
-# Shop Smart, Save Time - Backend
+# Online groceries backend
 
 ## Giới thiệu
 Backend cửa hàng tạp hóa online
