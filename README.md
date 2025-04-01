@@ -48,12 +48,7 @@ DB_NAME=online_groceries_shop
 JWT_SECRET=your_secret_key
 ```
 
-### 4. Chạy migrations (nếu sử dụng Sequelize)
-```bash
-npx sequelize db:migrate
-```
-
-### 5. Khởi động server
+### 4. Khởi động server
 ```bash
 npm start
 ```
